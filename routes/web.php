@@ -24,6 +24,7 @@ Route::get('contact-us',[
     'uses' => 'portfolioController@contactUs',
     'as' => 'contact'
 ]);
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
